@@ -14,7 +14,7 @@ function Header(props) {
                                   <div className="header-top-left">
                                         {/*=======  order online text  =======*/}
                                         <div className="order-online-text">
-                                              Order Online Call Us <a><span
+                                              Đặt hàng Online <a><span
                                             className="number">(0123) 456789</span></a>
                                         </div>
                                         {/*=======  End of order online text  =======*/}
@@ -25,14 +25,10 @@ function Header(props) {
                                         {/*=======  top social icons  =======*/}
                                         <div className="top-social-icons">
                                               <ul>
-                                                    <li><a><i className="fa fa-twitter"/></a>
-                                                    </li>
-                                                    <li><a><i
-                                                        className="fa fa-facebook"/></a></li>
-                                                    <li><a><i
-                                                        className="fa fa-instagram"/></a></li>
-                                                    <li><a><i
-                                                        className="fa fa-youtube-play"/></a></li>
+                                                    <li><a><i className="fa fa-twitter"/></a></li>
+                                                    <li><a><i className="fa fa-facebook"/></a></li>
+                                                    <li><a><i className="fa fa-instagram"/></a></li>
+                                                    <li><a><i className="fa fa-youtube-play"/></a></li>
                                               </ul>
                                         </div>
                                         {/*=======  End of top social icons  =======*/}
