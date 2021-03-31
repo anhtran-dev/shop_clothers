@@ -532,8 +532,8 @@ function Home(props) {
                       {/*=====  End of banner with product area  ======*/}
                 </div>
                 {/*=============================================
-	=            footer banner section area        =
-	=============================================*/}
+                  =            footer banner section area        =
+                  =============================================*/}
                 <div className="footer-banner-section-area mb-80 mb-sm-60">
                       <div className="container">
                             <div className="row">
