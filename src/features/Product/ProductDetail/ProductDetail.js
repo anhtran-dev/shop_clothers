@@ -1,7 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-
-ProductDetail.propTypes = {};
 
 function ProductDetail(props) {
       return (
@@ -14,9 +11,8 @@ function ProductDetail(props) {
                                         <h1 className="breadcrumb-title">Shop</h1>
                                         {/*=======  breadcrumb list  =======*/}
                                         <ul className="breadcrumb-list">
-                                              <li className="breadcrumb-list__item"><a href="index.html">HOME</a></li>
-                                              <li className="breadcrumb-list__item"><a
-                                                  href="shop-left-sidebar.html">SHOP</a></li>
+                                              <li className="breadcrumb-list__item"><a>HOME</a></li>
+                                              <li className="breadcrumb-list__item"><a>SHOP</a></li>
                                               <li className="breadcrumb-list__item breadcrumb-list__item--active">SHOP
                                                     PRODUCT
                                               </li>
@@ -48,12 +44,12 @@ function ProductDetail(props) {
                                                                 </div>
                                                                 <div className="shop-product-rightside-icons">
                     <span className="wishlist-icon">
-                      <a href="#" data-tippy="Add to wishlist" data-tippy-placement="left" data-tippy-inertia="true"
+                      <a data-tippy="Add to wishlist" data-tippy-placement="left" data-tippy-inertia="true"
                          data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true"
                          data-tippy-theme="sharpborder"><i className="ion-android-favorite-outline"/></a>
                     </span>
                                                                       <span className="enlarge-icon">
-                      <a className="btn-zoom-popup" href="#" data-tippy="Click to enlarge" data-tippy-placement="left"
+                      <a className="btn-zoom-popup" data-tippy="Click to enlarge" data-tippy-placement="left"
                          data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50}
                          data-tippy-arrow="true" data-tippy-theme="sharpborder"><i className="ion-android-expand"/></a>
                     </span>
@@ -174,9 +170,9 @@ function ProductDetail(props) {
                                                           <div className="shop-product__description">
                                                                 {/*=======  shop product navigation  =======*/}
                                                                 <div className="shop-product__navigation">
-                                                                      <a href="shop-product-basic.html"><i
+                                                                      <a><i
                                                                           className="ion-ios-arrow-thin-left"/></a>
-                                                                      <a href="shop-product-basic.html"><i
+                                                                      <a><i
                                                                           className="ion-ios-arrow-thin-right"/></a>
                                                                 </div>
                                                                 {/*=======  End of shop product navigation  =======*/}
@@ -190,7 +186,7 @@ function ProductDetail(props) {
                       <i className="ion-android-star-outline"/>
                     </span>
                                                                       <span className="review-link ml-20">
-                      <a href="#">(3 customer reviews)</a>
+                      <a>(3 customer reviews)</a>
                     </span>
                                                                 </div>
                                                                 {/*=======  End of shop product rating  =======*/}
@@ -249,15 +245,15 @@ function ProductDetail(props) {
                                                                                   <ul className="single-filter-widget--list single-filter-widget--list--color">
                                                                                         <li className="mb-0 pt-0 pb-0 mr-10">
                                                                                               <a className="active"
-                                                                                                 href="#"><span
+                                                                                              ><span
                                                                                                   className="color-picker black"/></a>
                                                                                         </li>
                                                                                         <li className="mb-0 pt-0 pb-0 mr-10">
-                                                                                              <a href="#"><span
+                                                                                              <a><span
                                                                                                   className="color-picker blue"/></a>
                                                                                         </li>
                                                                                         <li className="mb-0 pt-0 pb-0 mr-10">
-                                                                                              <a href="#"><span
+                                                                                              <a><span
                                                                                                   className="color-picker brown"/></a>
                                                                                         </li>
                                                                                   </ul>
@@ -282,9 +278,9 @@ function ProductDetail(props) {
                                                                 {/*=======  shop product buttons  =======*/}
                                                                 <div className="shop-product__buttons mb-40">
                                                                       <a className="lezada-button lezada-button--medium"
-                                                                         href="#">add to cart</a>
+                                                                      >add to cart</a>
                                                                       <a className="lezada-compare-button ml-20"
-                                                                         href="#" data-tippy="Compare"
+                                                                         data-tippy="Compare"
                                                                          data-tippy-inertia="true"
                                                                          data-tippy-animation="shift-away"
                                                                          data-tippy-delay={50}
@@ -296,11 +292,11 @@ function ProductDetail(props) {
                                                                 {/*=======  End of shop product buttons  =======*/}
                                                                 {/*=======  shop product brands  =======*/}
                                                                 <div className="shop-product__brands mb-20">
-                                                                      <a href="#">
+                                                                      <a>
                                                                             <img src="assets/images/brands/brand-1.png"
                                                                                  className="img-fluid" alt=""/>
                                                                       </a>
-                                                                      <a href="#">
+                                                                      <a>
                                                                             <img src="assets/images/brands/brand-2.png"
                                                                                  className="img-fluid" alt=""/>
                                                                       </a>
@@ -317,16 +313,16 @@ function ProductDetail(props) {
                                                                             <tr className="single-info">
                                                                                   <td className="quickview-title">Categories:</td>
                                                                                   <td className="quickview-value">
-                                                                                        <a href="#">Fashion</a>,
-                                                                                        <a href="#">Men</a>,
-                                                                                        <a href="#">Sunglasses</a>
+                                                                                        <a>Fashion</a>,
+                                                                                        <a>Men</a>,
+                                                                                        <a>Sunglasses</a>
                                                                                   </td>
                                                                             </tr>
                                                                             <tr className="single-info">
                                                                                   <td className="quickview-title">Tags:</td>
                                                                                   <td className="quickview-value">
-                                                                                        <a href="#">Fashion</a>,
-                                                                                        <a href="#">Men</a>
+                                                                                        <a>Fashion</a>,
+                                                                                        <a>Men</a>
                                                                                   </td>
                                                                             </tr>
                                                                             <tr className="single-info">
@@ -335,16 +331,16 @@ function ProductDetail(props) {
                                                                                   </td>
                                                                                   <td className="quickview-value">
                                                                                         <ul className="quickview-social-icons">
-                                                                                              <li><a href="#"><i
+                                                                                              <li><a><i
                                                                                                   className="fa fa-facebook"/></a>
                                                                                               </li>
-                                                                                              <li><a href="#"><i
+                                                                                              <li><a><i
                                                                                                   className="fa fa-twitter"/></a>
                                                                                               </li>
-                                                                                              <li><a href="#"><i
+                                                                                              <li><a><i
                                                                                                   className="fa fa-google-plus"/></a>
                                                                                               </li>
-                                                                                              <li><a href="#"><i
+                                                                                              <li><a><i
                                                                                                   className="fa fa-pinterest"/></a>
                                                                                               </li>
                                                                                         </ul>
@@ -370,16 +366,16 @@ function ProductDetail(props) {
                                                                           id="nav-tab2" role="tablist">
                                                                             <a className="nav-item nav-link active"
                                                                                id="product-tab-1" data-toggle="tab"
-                                                                               href="#product-series-1" role="tab"
+                                                                               role="tab"
                                                                                aria-selected="true">Description</a>
                                                                             <a className="nav-item nav-link"
                                                                                id="product-tab-2" data-toggle="tab"
-                                                                               href="#product-series-2" role="tab"
+                                                                                role="tab"
                                                                                aria-selected="false">Additional
                                                                                   information</a>
                                                                             <a className="nav-item nav-link"
                                                                                id="product-tab-3" data-toggle="tab"
-                                                                               href="#product-series-3" role="tab"
+                                                                                role="tab"
                                                                                aria-selected="false">Reviews (3)</a>
                                                                       </div>
                                                                 </div>

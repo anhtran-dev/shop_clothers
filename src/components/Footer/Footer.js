@@ -26,10 +26,10 @@ function Footer(props) {
                                   <div className="footer-nav-container">
                                         <nav>
                                               <ul>
-                                                    <li><a href="#">About us</a></li>
-                                                    <li><a href="#">Store location</a></li>
-                                                    <li><a href="#">Contact</a></li>
-                                                    <li><a href="#">Orders tracking</a></li>
+                                                    <li><a>About us</a></li>
+                                                    <li><a>Store location</a></li>
+                                                    <li><a>Contact</a></li>
+                                                    <li><a>Orders tracking</a></li>
                                               </ul>
                                         </nav>
                                   </div>
@@ -43,10 +43,10 @@ function Footer(props) {
                                   <div className="footer-nav-container">
                                         <nav>
                                               <ul>
-                                                    <li><a href="#">Returns</a></li>
-                                                    <li><a href="#">Support Policy</a></li>
-                                                    <li><a href="#">Size guide</a></li>
-                                                    <li><a href="#">FAQs</a></li>
+                                                    <li><a>Returns</a></li>
+                                                    <li><a>Support Policy</a></li>
+                                                    <li><a>Size guide</a></li>
+                                                    <li><a>FAQs</a></li>
                                               </ul>
                                         </nav>
                                   </div>
@@ -60,10 +60,10 @@ function Footer(props) {
                                   <div className="footer-nav-container footer-social-links">
                                         <nav>
                                               <ul>
-                                                    <li><a href="http://twitter.com/"><i className="fa fa-twitter" /> Twitter</a></li>
-                                                    <li><a href="http://facebook.com/"> <i className="fa fa-facebook" /> Facebook</a></li>
-                                                    <li><a href="http://instagram.com/"><i className="fa fa-instagram" /> Instagram</a></li>
-                                                    <li><a href="http://youtube.com/"> <i className="fa fa-youtube" /> Youtube</a></li>
+                                                    <li><a><i className="fa fa-twitter" /> Twitter</a></li>
+                                                    <li><a> <i className="fa fa-facebook" /> Facebook</a></li>
+                                                    <li><a><i className="fa fa-instagram" /> Instagram</a></li>
+                                                    <li><a> <i className="fa fa-youtube" /> Youtube</a></li>
                                               </ul>
                                         </nav>
                                   </div>

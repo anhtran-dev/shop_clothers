@@ -24,7 +24,7 @@ function Home(props) {
                                                           <div className="single-product">
                                                                 {/*=======  single product image  =======*/}
                                                                 <div className="single-product__image">
-                                                                      <a className="image-wrap" href="shop-product-basic.html">
+                                                                      <a className="image-wrap">
                                                                             <img src="assets/images/products/high-waist-trousers-1-600x800.jpg" className="img-fluid" alt="" />
                                                                             <img src="assets/images/products/high-waist-trousers-2-600x800.jpg" className="img-fluid" alt="" />
                                                                       </a>
@@ -33,9 +33,9 @@ function Home(props) {
                                                                             <span className="hot">hot</span>
                                                                       </div>
                                                                       <div className="single-product__floating-icons">
-                                                                            <span className="wishlist"><a href="#" data-tippy="Add to wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-android-favorite-outline" /></a></span>
-                                                                            <span className="compare"><a href="#" data-tippy="Compare" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-shuffle-strong" /></a></span>
-                                                                            <span className="quickview"><a className="cd-trigger" href="#qv-1" data-tippy="Quick View" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-search-strong" /></a></span>
+                                                                            <span className="wishlist"><a data-tippy="Add to wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-android-favorite-outline" /></a></span>
+                                                                            <span className="compare"><a data-tippy="Compare" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-shuffle-strong" /></a></span>
+                                                                            <span className="quickview"><a className="cd-trigger" data-tippy="Quick View" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-search-strong" /></a></span>
                                                                       </div>
                                                                 </div>
                                                                 {/*=======  End of single product image  =======*/}
@@ -53,11 +53,11 @@ function Home(props) {
                                                                                   <span className="blue" />
                                                                                   <span className="yellow" />
                                                                             </div>
-                                                                            {/* <a href="#" class="clear-link">clear</a> */}
+                                                                            {/* <a class="clear-link">clear</a> */}
                                                                       </div>
                                                                       <div className="title">
-                                                                            <h3> <a href="shop-product-basic.html">High-waist Trousers</a></h3>
-                                                                            <a href="#">Select options</a>
+                                                                            <h3> <a>High-waist Trousers</a></h3>
+                                                                            <a>Select options</a>
                                                                       </div>
                                                                       <div className="price">
                                                                             <span className="main-price discounted">$160.00</span>
@@ -73,7 +73,7 @@ function Home(props) {
                                                           <div className="single-product">
                                                                 {/*=======  single product image  =======*/}
                                                                 <div className="single-product__image">
-                                                                      <a className="image-wrap" href="shop-product-basic.html">
+                                                                      <a className="image-wrap">
                                                                             <img src="assets/images/products/modern-loafer-patent-1-600x800.jpg" className="img-fluid" alt="" />
                                                                             <img src="assets/images/products/modern-loafer-patent-2-600x800.jpg" className="img-fluid" alt="" />
                                                                       </a>
@@ -81,17 +81,17 @@ function Home(props) {
                                                                             <span className="onsale">-5%</span>
                                                                       </div>
                                                                       <div className="single-product__floating-icons">
-                                                                            <span className="wishlist"><a href="#" data-tippy="Add to wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-android-favorite-outline" /></a></span>
-                                                                            <span className="compare"><a href="#" data-tippy="Compare" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-shuffle-strong" /></a></span>
-                                                                            <span className="quickview"><a className="cd-trigger" href="#qv-1" data-tippy="Quick View" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-search-strong" /></a></span>
+                                                                            <span className="wishlist"><a data-tippy="Add to wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-android-favorite-outline" /></a></span>
+                                                                            <span className="compare"><a data-tippy="Compare" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-shuffle-strong" /></a></span>
+                                                                            <span className="quickview"><a className="cd-trigger" data-tippy="Quick View" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-search-strong" /></a></span>
                                                                       </div>
                                                                 </div>
                                                                 {/*=======  End of single product image  =======*/}
                                                                 {/*=======  single product content  =======*/}
                                                                 <div className="single-product__content">
                                                                       <div className="title">
-                                                                            <h3> <a href="shop-product-basic.html">Modern loafer</a></h3>
-                                                                            <a href="#">Add to cart</a>
+                                                                            <h3> <a>Modern loafer</a></h3>
+                                                                            <a>Add to cart</a>
                                                                       </div>
                                                                       <div className="price">
                                                                             <span className="main-price discounted">$100.00</span>
@@ -107,7 +107,7 @@ function Home(props) {
                                                           <div className="single-product">
                                                                 {/*=======  single product image  =======*/}
                                                                 <div className="single-product__image">
-                                                                      <a className="image-wrap" href="shop-product-basic.html">
+                                                                      <a className="image-wrap">
                                                                             <img src="assets/images/products/skinny-jean-600x800.jpg" className="img-fluid" alt="" />
                                                                             <img src="assets/images/products/skinny-jean-2-600x800.jpg" className="img-fluid" alt="" />
                                                                       </a>
@@ -115,17 +115,17 @@ function Home(props) {
                                                                             <span className="onsale">-15%</span>
                                                                       </div>
                                                                       <div className="single-product__floating-icons">
-                                                                            <span className="wishlist"><a href="#" data-tippy="Add to wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-android-favorite-outline" /></a></span>
-                                                                            <span className="compare"><a href="#" data-tippy="Compare" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-shuffle-strong" /></a></span>
-                                                                            <span className="quickview"><a className="cd-trigger" href="#qv-1" data-tippy="Quick View" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-search-strong" /></a></span>
+                                                                            <span className="wishlist"><a data-tippy="Add to wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-android-favorite-outline" /></a></span>
+                                                                            <span className="compare"><a data-tippy="Compare" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-shuffle-strong" /></a></span>
+                                                                            <span className="quickview"><a className="cd-trigger" data-tippy="Quick View" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-search-strong" /></a></span>
                                                                       </div>
                                                                 </div>
                                                                 {/*=======  End of single product image  =======*/}
                                                                 {/*=======  single product content  =======*/}
                                                                 <div className="single-product__content">
                                                                       <div className="title">
-                                                                            <h3> <a href="shop-product-basic.html">Skiny jeans</a></h3>
-                                                                            <a href="#">Add to cart</a>
+                                                                            <h3> <a>Skiny jeans</a></h3>
+                                                                            <a>Add to cart</a>
                                                                       </div>
                                                                       <div className="price">
                                                                             <span className="main-price discounted">$400.00</span>
@@ -141,7 +141,7 @@ function Home(props) {
                                                           <div className="single-product">
                                                                 {/*=======  single product image  =======*/}
                                                                 <div className="single-product__image">
-                                                                      <a className="image-wrap" href="shop-product-basic.html">
+                                                                      <a className="image-wrap">
                                                                             <img src="assets/images/products/watch-1-1-600x800.jpg" className="img-fluid" alt="" />
                                                                             <img src="assets/images/products/watch-1-2-600x800.jpg" className="img-fluid" alt="" />
                                                                       </a>
@@ -149,17 +149,17 @@ function Home(props) {
                                                                             <span className="onsale">-10%</span>
                                                                       </div>
                                                                       <div className="single-product__floating-icons">
-                                                                            <span className="wishlist"><a href="#" data-tippy="Add to wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-android-favorite-outline" /></a></span>
-                                                                            <span className="compare"><a href="#" data-tippy="Compare" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-shuffle-strong" /></a></span>
-                                                                            <span className="quickview"><a className="cd-trigger" href="#qv-1" data-tippy="Quick View" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-search-strong" /></a></span>
+                                                                            <span className="wishlist"><a data-tippy="Add to wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-android-favorite-outline" /></a></span>
+                                                                            <span className="compare"><a data-tippy="Compare" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-shuffle-strong" /></a></span>
+                                                                            <span className="quickview"><a className="cd-trigger" data-tippy="Quick View" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-search-strong" /></a></span>
                                                                       </div>
                                                                 </div>
                                                                 {/*=======  End of single product image  =======*/}
                                                                 {/*=======  single product content  =======*/}
                                                                 <div className="single-product__content">
                                                                       <div className="title">
-                                                                            <h3> <a href="shop-product-basic.html">Light Brown Watch</a></h3>
-                                                                            <a href="#">Add to cart</a>
+                                                                            <h3> <a>Light Brown Watch</a></h3>
+                                                                            <a>Add to cart</a>
                                                                       </div>
                                                                       <div className="price">
                                                                             <span className="main-price">$130.00</span>
@@ -174,7 +174,7 @@ function Home(props) {
                                                           <div className="single-product">
                                                                 {/*=======  single product image  =======*/}
                                                                 <div className="single-product__image">
-                                                                      <a className="image-wrap" href="shop-product-basic.html">
+                                                                      <a className="image-wrap">
                                                                             <img src="assets/images/products/watch-2-1-600x800.jpg" className="img-fluid" alt="" />
                                                                             <img src="assets/images/products/watch-2-2-600x800.jpg" className="img-fluid" alt="" />
                                                                       </a>
@@ -182,17 +182,17 @@ function Home(props) {
                                                                             <span className="hot">hot</span>
                                                                       </div>
                                                                       <div className="single-product__floating-icons">
-                                                                            <span className="wishlist"><a href="#" data-tippy="Add to wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-android-favorite-outline" /></a></span>
-                                                                            <span className="compare"><a href="#" data-tippy="Compare" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-shuffle-strong" /></a></span>
-                                                                            <span className="quickview"><a className="cd-trigger" href="#qv-1" data-tippy="Quick View" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-search-strong" /></a></span>
+                                                                            <span className="wishlist"><a data-tippy="Add to wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-android-favorite-outline" /></a></span>
+                                                                            <span className="compare"><a data-tippy="Compare" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-shuffle-strong" /></a></span>
+                                                                            <span className="quickview"><a className="cd-trigger" data-tippy="Quick View" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-search-strong" /></a></span>
                                                                       </div>
                                                                 </div>
                                                                 {/*=======  End of single product image  =======*/}
                                                                 {/*=======  single product content  =======*/}
                                                                 <div className="single-product__content">
                                                                       <div className="title">
-                                                                            <h3> <a href="shop-product-basic.html">Dark Gray Watch</a></h3>
-                                                                            <a href="#">Add to cart</a>
+                                                                            <h3> <a>Dark Gray Watch</a></h3>
+                                                                            <a>Add to cart</a>
                                                                       </div>
                                                                       <div className="price">
                                                                             <span className="main-price discounted">$260.00</span>
@@ -208,24 +208,24 @@ function Home(props) {
                                                           <div className="single-product">
                                                                 {/*=======  single product image  =======*/}
                                                                 <div className="single-product__image">
-                                                                      <a className="image-wrap" href="shop-product-basic.html">
+                                                                      <a className="image-wrap">
                                                                             <img src="assets/images/products/watch-3-1-600x800.jpg" className="img-fluid" alt="" />
                                                                             <img src="assets/images/products/watch-3-2-600x800.jpg" className="img-fluid" alt="" />
                                                                       </a>
                                                                       <div className="single-product__floating-badges">
                                                                       </div>
                                                                       <div className="single-product__floating-icons">
-                                                                            <span className="wishlist"><a href="#" data-tippy="Add to wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-android-favorite-outline" /></a></span>
-                                                                            <span className="compare"><a href="#" data-tippy="Compare" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-shuffle-strong" /></a></span>
-                                                                            <span className="quickview"><a className="cd-trigger" href="#qv-1" data-tippy="Quick View" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-search-strong" /></a></span>
+                                                                            <span className="wishlist"><a data-tippy="Add to wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-android-favorite-outline" /></a></span>
+                                                                            <span className="compare"><a data-tippy="Compare" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-shuffle-strong" /></a></span>
+                                                                            <span className="quickview"><a className="cd-trigger" data-tippy="Quick View" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-search-strong" /></a></span>
                                                                       </div>
                                                                 </div>
                                                                 {/*=======  End of single product image  =======*/}
                                                                 {/*=======  single product content  =======*/}
                                                                 <div className="single-product__content">
                                                                       <div className="title">
-                                                                            <h3> <a href="shop-product-basic.html"> Dark Brown Watch</a></h3>
-                                                                            <a href="#">Add to cart</a>
+                                                                            <h3> <a> Dark Brown Watch</a></h3>
+                                                                            <a>Add to cart</a>
                                                                       </div>
                                                                       <div className="price">
                                                                             <span className="main-price discounted">$120.00</span>
@@ -243,10 +243,10 @@ function Home(props) {
 					=          product side  banner         =
 					=============================================*/}
                                               <div className="product-side-banner">
-                                                    <a href="shop-left-sidebar.html" className="mb-40">
+                                                    <a className="mb-40">
                                                           <img src="assets/images/banners/women.png" className="img-fluid" alt="" />
                                                     </a>
-                                                    <a href="shop-left-sidebar.html" className="product-side-banner--link">#women</a>
+                                                    <a className="product-side-banner--link">#women</a>
                                               </div>
                                               {/*=====  End of product side banner  ======*/}
                                         </div>
@@ -255,15 +255,15 @@ function Home(props) {
                       </div>
                       {/*=====  End of banner with product area  ======*/}
                       {/*=============================================
-	=            hover banner area         =
-	=============================================*/}
+                        =            hover banner area         =
+                        =============================================*/}
                       <div className="hover-banner-area mb-50 mb-sm-30">
                             <div className="container wide">
                                   <div className="row">
                                         <div className="col-md-6 mb-30">
                                               {/*=======  single banner  =======*/}
                                               <div className="single-banner single-banner--hoverborder">
-                                                    <a className="banner-link" href="shop-left-sidebar.html" />
+                                                    <a className="banner-link" />
                                                     <img src="assets/images/banners/ads1.jpg" className="img-fluid" alt="" />
                                                     <div className="banner-content banner-content--middle-white">
                                                           <p> <span className="bold-white">10%</span> off your <span className="d-block">next purchase</span></p>
@@ -274,7 +274,7 @@ function Home(props) {
                                         <div className="col-md-6 mb-30">
                                               {/*=======  single banner  =======*/}
                                               <div className="single-banner single-banner--hoverborder">
-                                                    <a className="banner-link" href="shop-left-sidebar.html" />
+                                                    <a className="banner-link" />
                                                     <img src="assets/images/banners/ads2.jpg" className="img-fluid" alt="" />
                                                     <div className="banner-content banner-content--black-left">
                                                           <p> <span className="big-text">Free shipping</span> <span className="small-text d-block">Free shipping on domestic
@@ -300,7 +300,7 @@ function Home(props) {
                                                           <div className="single-product">
                                                                 {/*=======  single product image  =======*/}
                                                                 <div className="single-product__image">
-                                                                      <a className="image-wrap" href="shop-product-basic.html">
+                                                                      <a className="image-wrap">
                                                                             <img src="assets/images/products/cloth-1-1-600x800.jpg" className="img-fluid" alt="" />
                                                                             <img src="assets/images/products/cloth-1-2-600x800.jpg" className="img-fluid" alt="" />
                                                                       </a>
@@ -309,9 +309,9 @@ function Home(props) {
                                                                             <span className="hot">hot</span>
                                                                       </div>
                                                                       <div className="single-product__floating-icons">
-                                                                            <span className="wishlist"><a href="#" data-tippy="Add to wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-android-favorite-outline" /></a></span>
-                                                                            <span className="compare"><a href="#" data-tippy="Compare" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-shuffle-strong" /></a></span>
-                                                                            <span className="quickview"><a className="cd-trigger" href="#qv-1" data-tippy="Quick View" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-search-strong" /></a></span>
+                                                                            <span className="wishlist"><a data-tippy="Add to wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-android-favorite-outline" /></a></span>
+                                                                            <span className="compare"><a data-tippy="Compare" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-shuffle-strong" /></a></span>
+                                                                            <span className="quickview"><a className="cd-trigger" data-tippy="Quick View" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-search-strong" /></a></span>
                                                                       </div>
                                                                 </div>
                                                                 {/*=======  End of single product image  =======*/}
@@ -329,11 +329,11 @@ function Home(props) {
                                                                                   <span className="blue" />
                                                                                   <span className="yellow" />
                                                                             </div>
-                                                                            {/* <a href="#" class="clear-link">clear</a> */}
+                                                                            {/* <a class="clear-link">clear</a> */}
                                                                       </div>
                                                                       <div className="title">
-                                                                            <h3> <a href="shop-product-basic.html">High-waist Trousers</a></h3>
-                                                                            <a href="#">Select options</a>
+                                                                            <h3> <a>High-waist Trousers</a></h3>
+                                                                            <a>Select options</a>
                                                                       </div>
                                                                       <div className="price">
                                                                             <span className="main-price discounted">$160.00</span>
@@ -349,7 +349,7 @@ function Home(props) {
                                                           <div className="single-product">
                                                                 {/*=======  single product image  =======*/}
                                                                 <div className="single-product__image">
-                                                                      <a className="image-wrap" href="shop-product-basic.html">
+                                                                      <a className="image-wrap">
                                                                             <img src="assets/images/products/pique-polo-1-600x800.jpg" className="img-fluid" alt="" />
                                                                             <img src="assets/images/products/pique-polo-3-600x800.jpg" className="img-fluid" alt="" />
                                                                       </a>
@@ -357,17 +357,17 @@ function Home(props) {
                                                                             <span className="onsale">-5%</span>
                                                                       </div>
                                                                       <div className="single-product__floating-icons">
-                                                                            <span className="wishlist"><a href="#" data-tippy="Add to wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-android-favorite-outline" /></a></span>
-                                                                            <span className="compare"><a href="#" data-tippy="Compare" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-shuffle-strong" /></a></span>
-                                                                            <span className="quickview"><a className="cd-trigger" href="#qv-1" data-tippy="Quick View" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-search-strong" /></a></span>
+                                                                            <span className="wishlist"><a data-tippy="Add to wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-android-favorite-outline" /></a></span>
+                                                                            <span className="compare"><a data-tippy="Compare" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-shuffle-strong" /></a></span>
+                                                                            <span className="quickview"><a className="cd-trigger" data-tippy="Quick View" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-search-strong" /></a></span>
                                                                       </div>
                                                                 </div>
                                                                 {/*=======  End of single product image  =======*/}
                                                                 {/*=======  single product content  =======*/}
                                                                 <div className="single-product__content">
                                                                       <div className="title">
-                                                                            <h3> <a href="shop-product-basic.html">Polo Shirt</a></h3>
-                                                                            <a href="#">Add to cart</a>
+                                                                            <h3> <a>Polo Shirt</a></h3>
+                                                                            <a>Add to cart</a>
                                                                       </div>
                                                                       <div className="price">
                                                                             <span className="main-price discounted">$100.00</span>
@@ -383,7 +383,7 @@ function Home(props) {
                                                           <div className="single-product">
                                                                 {/*=======  single product image  =======*/}
                                                                 <div className="single-product__image">
-                                                                      <a className="image-wrap" href="shop-product-basic.html">
+                                                                      <a className="image-wrap">
                                                                             <img src="assets/images/products/sunglass-1-600x800.png" className="img-fluid" alt="" />
                                                                             <img src="assets/images/products/sunglass-2-600x800.png" className="img-fluid" alt="" />
                                                                       </a>
@@ -391,17 +391,17 @@ function Home(props) {
                                                                             <span className="onsale">-15%</span>
                                                                       </div>
                                                                       <div className="single-product__floating-icons">
-                                                                            <span className="wishlist"><a href="#" data-tippy="Add to wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-android-favorite-outline" /></a></span>
-                                                                            <span className="compare"><a href="#" data-tippy="Compare" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-shuffle-strong" /></a></span>
-                                                                            <span className="quickview"><a className="cd-trigger" href="#qv-1" data-tippy="Quick View" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-search-strong" /></a></span>
+                                                                            <span className="wishlist"><a data-tippy="Add to wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-android-favorite-outline" /></a></span>
+                                                                            <span className="compare"><a data-tippy="Compare" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-shuffle-strong" /></a></span>
+                                                                            <span className="quickview"><a className="cd-trigger" data-tippy="Quick View" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-search-strong" /></a></span>
                                                                       </div>
                                                                 </div>
                                                                 {/*=======  End of single product image  =======*/}
                                                                 {/*=======  single product content  =======*/}
                                                                 <div className="single-product__content">
                                                                       <div className="title">
-                                                                            <h3> <a href="shop-product-basic.html">Black Sunglass</a></h3>
-                                                                            <a href="#">Add to cart</a>
+                                                                            <h3> <a>Black Sunglass</a></h3>
+                                                                            <a>Add to cart</a>
                                                                       </div>
                                                                       <div className="price">
                                                                             <span className="main-price discounted">$400.00</span>
@@ -417,7 +417,7 @@ function Home(props) {
                                                           <div className="single-product">
                                                                 {/*=======  single product image  =======*/}
                                                                 <div className="single-product__image">
-                                                                      <a className="image-wrap" href="shop-product-basic.html">
+                                                                      <a className="image-wrap">
                                                                             <img src="assets/images/products/watch-1-1-600x800.jpg" className="img-fluid" alt="" />
                                                                             <img src="assets/images/products/watch-1-2-600x800.jpg" className="img-fluid" alt="" />
                                                                       </a>
@@ -425,17 +425,17 @@ function Home(props) {
                                                                             <span className="onsale">-10%</span>
                                                                       </div>
                                                                       <div className="single-product__floating-icons">
-                                                                            <span className="wishlist"><a href="#" data-tippy="Add to wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-android-favorite-outline" /></a></span>
-                                                                            <span className="compare"><a href="#" data-tippy="Compare" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-shuffle-strong" /></a></span>
-                                                                            <span className="quickview"><a className="cd-trigger" href="#qv-1" data-tippy="Quick View" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-search-strong" /></a></span>
+                                                                            <span className="wishlist"><a data-tippy="Add to wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-android-favorite-outline" /></a></span>
+                                                                            <span className="compare"><a data-tippy="Compare" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-shuffle-strong" /></a></span>
+                                                                            <span className="quickview"><a className="cd-trigger" data-tippy="Quick View" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-search-strong" /></a></span>
                                                                       </div>
                                                                 </div>
                                                                 {/*=======  End of single product image  =======*/}
                                                                 {/*=======  single product content  =======*/}
                                                                 <div className="single-product__content">
                                                                       <div className="title">
-                                                                            <h3> <a href="shop-product-basic.html">Light Brown Watch</a></h3>
-                                                                            <a href="#">Add to cart</a>
+                                                                            <h3> <a>Light Brown Watch</a></h3>
+                                                                            <a>Add to cart</a>
                                                                       </div>
                                                                       <div className="price">
                                                                             <span className="main-price">$130.00</span>
@@ -450,7 +450,7 @@ function Home(props) {
                                                           <div className="single-product">
                                                                 {/*=======  single product image  =======*/}
                                                                 <div className="single-product__image">
-                                                                      <a className="image-wrap" href="shop-product-basic.html">
+                                                                      <a className="image-wrap">
                                                                             <img src="assets/images/products/watch-2-1-600x800.jpg" className="img-fluid" alt="" />
                                                                             <img src="assets/images/products/watch-2-2-600x800.jpg" className="img-fluid" alt="" />
                                                                       </a>
@@ -458,17 +458,17 @@ function Home(props) {
                                                                             <span className="hot">hot</span>
                                                                       </div>
                                                                       <div className="single-product__floating-icons">
-                                                                            <span className="wishlist"><a href="#" data-tippy="Add to wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-android-favorite-outline" /></a></span>
-                                                                            <span className="compare"><a href="#" data-tippy="Compare" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-shuffle-strong" /></a></span>
-                                                                            <span className="quickview"><a className="cd-trigger" href="#qv-1" data-tippy="Quick View" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-search-strong" /></a></span>
+                                                                            <span className="wishlist"><a data-tippy="Add to wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-android-favorite-outline" /></a></span>
+                                                                            <span className="compare"><a data-tippy="Compare" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-shuffle-strong" /></a></span>
+                                                                            <span className="quickview"><a className="cd-trigger" data-tippy="Quick View" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-search-strong" /></a></span>
                                                                       </div>
                                                                 </div>
                                                                 {/*=======  End of single product image  =======*/}
                                                                 {/*=======  single product content  =======*/}
                                                                 <div className="single-product__content">
                                                                       <div className="title">
-                                                                            <h3> <a href="shop-product-basic.html">Dark Gray Watch</a></h3>
-                                                                            <a href="#">Add to cart</a>
+                                                                            <h3> <a>Dark Gray Watch</a></h3>
+                                                                            <a>Add to cart</a>
                                                                       </div>
                                                                       <div className="price">
                                                                             <span className="main-price discounted">$260.00</span>
@@ -484,24 +484,24 @@ function Home(props) {
                                                           <div className="single-product">
                                                                 {/*=======  single product image  =======*/}
                                                                 <div className="single-product__image">
-                                                                      <a className="image-wrap" href="shop-product-basic.html">
+                                                                      <a className="image-wrap">
                                                                             <img src="assets/images/products/watch-3-1-600x800.jpg" className="img-fluid" alt="" />
                                                                             <img src="assets/images/products/watch-3-2-600x800.jpg" className="img-fluid" alt="" />
                                                                       </a>
                                                                       <div className="single-product__floating-badges">
                                                                       </div>
                                                                       <div className="single-product__floating-icons">
-                                                                            <span className="wishlist"><a href="#" data-tippy="Add to wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-android-favorite-outline" /></a></span>
-                                                                            <span className="compare"><a href="#" data-tippy="Compare" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-shuffle-strong" /></a></span>
-                                                                            <span className="quickview"><a className="cd-trigger" href="#qv-1" data-tippy="Quick View" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-search-strong" /></a></span>
+                                                                            <span className="wishlist"><a data-tippy="Add to wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-android-favorite-outline" /></a></span>
+                                                                            <span className="compare"><a data-tippy="Compare" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-shuffle-strong" /></a></span>
+                                                                            <span className="quickview"><a className="cd-trigger" data-tippy="Quick View" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><i className="ion-ios-search-strong" /></a></span>
                                                                       </div>
                                                                 </div>
                                                                 {/*=======  End of single product image  =======*/}
                                                                 {/*=======  single product content  =======*/}
                                                                 <div className="single-product__content">
                                                                       <div className="title">
-                                                                            <h3> <a href="shop-product-basic.html"> Dark Brown Watch</a></h3>
-                                                                            <a href="#">Add to cart</a>
+                                                                            <h3> <a> Dark Brown Watch</a></h3>
+                                                                            <a>Add to cart</a>
                                                                       </div>
                                                                       <div className="price">
                                                                             <span className="main-price discounted">$120.00</span>
@@ -519,10 +519,10 @@ function Home(props) {
 					=          product side  banner         =
 					=============================================*/}
                                               <div className="product-side-banner">
-                                                    <a href="shop-left-sidebar.html" className="mb-40">
+                                                    <a className="mb-40">
                                                           <img src="assets/images/banners/men.png" className="img-fluid" alt="" />
                                                     </a>
-                                                    <a href="shop-left-sidebar.html" className="product-side-banner--link">#men</a>
+                                                    <a className="product-side-banner--link">#men</a>
                                               </div>
                                               {/*=====  End of product side banner  ======*/}
                                         </div>
@@ -541,9 +541,9 @@ function Home(props) {
                                         {/*=======  ad section  =======*/}
                                         <div className="footer-banner-section footer-banner-section--special-home text-center">
                                               {/*=======  ad section image  =======*/}
-                                              <div className="footer-banner-section-image mb-35">
-                                                    <img src="assets/images/banners/ads.jpg" className="img-fluid" alt="" />
-                                              </div>
+                                              {/*<div className="footer-banner-section-image mb-35">*/}
+                                              {/*      <img src="assets/images/banners/ads.jpg" className="img-fluid" alt="" />*/}
+                                              {/*</div>*/}
                                               {/*=======  End of ad section image  =======*/}
 
                                               {/*=======  footer-banner-content  =======*/}

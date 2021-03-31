@@ -1,9 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-
-About.propTypes = {
-
-};
 
 function About(props) {
       return (
@@ -17,7 +12,7 @@ function About(props) {
                                               <h1 className="breadcrumb-title">About Us</h1>
                                               {/*=======  breadcrumb list  =======*/}
                                               <ul className="breadcrumb-list">
-                                                    <li className="breadcrumb-list__item"><a href="index.html">HOME</a></li>
+                                                    <li className="breadcrumb-list__item"><a>HOME</a></li>
                                                     <li className="breadcrumb-list__item breadcrumb-list__item--active">About Us</li>
                                               </ul>
                                               {/*=======  End of breadcrumb list  =======*/}
@@ -94,7 +89,7 @@ function About(props) {
                                                     <h1>Free shipping &amp; return</h1>
                                                     <p>Lorem ipsum dolor sit amet, consectetur cing elit. Suspe ndisse suscipit sagittis leo sit met condimentum
                                                           estibulum issim Lorem ipsum dolor sit amet, consectetur cing elit.</p>
-                                                    <a href="#">LEARN MORE</a>
+                                                    <a>LEARN MORE</a>
                                               </div>
                                               {/*=======  End of about single block  =======*/}
                                         </div>
@@ -105,7 +100,7 @@ function About(props) {
                                                     <h1>Money back</h1>
                                                     <p>Lorem ipsum dolor sit amet, consectetur cing elit. Suspe ndisse suscipit sagittis leo sit met condimentum
                                                           estibulum issim Lorem ipsum dolor sit amet, consectetur cing elit.</p>
-                                                    <a href="#">LEARN MORE</a>
+                                                    <a>LEARN MORE</a>
                                               </div>
                                               {/*=======  End of about single block  =======*/}
                                         </div>

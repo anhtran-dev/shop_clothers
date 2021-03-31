@@ -19,7 +19,7 @@ function Product(props) {
                                                     <h1 className="breadcrumb-title">Shop</h1>
                                                     {/*=======  breadcrumb list  =======*/}
                                                     <ul className="breadcrumb-list">
-                                                          <li className="breadcrumb-list__item"><a href="index.html">HOME</a></li>
+                                                          <li className="breadcrumb-list__item"><a>HOME</a></li>
                                                           <li className="breadcrumb-list__item breadcrumb-list__item--active">PRODUCTS</li>
                                                     </ul>
                                                     {/*=======  End of breadcrumb list  =======*/}

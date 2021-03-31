@@ -1,4 +1,4 @@
-(function ($) {
+  (function ($) {
   "use strict";
 
   /*----------  Menu sticky and scrol top  ----------*/
